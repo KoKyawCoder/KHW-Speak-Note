@@ -288,8 +288,8 @@ KHW Speak Note is built with accessibility as its primary goal. The add-on integ
 
 
 
-This project is released under the MIT License.
-
+For more information, see the LICENSE file included with this project or visit:
+https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
 
 
 \---
