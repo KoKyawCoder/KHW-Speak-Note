@@ -1,306 +1,109 @@
-\# KHW Speak Note
+# KHW Speak Note 🎙️📓
 
+[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
+[![Latest Release](https://img.shields.io/github/v/release/KoKyawCoder/KHW-Speak-Note?include_prereleases&color=green)](https://github.com/KoKyawCoder/KHW-Speak-Note/releases)
+[![Platform](https://img.shields.io/badge/Platform-Windows-orange)](https://github.com/KoKyawCoder/KHW-Speak-Note)
 
+**KHW Speak Note** is a free, lightweight, and fully accessible NVDA add-on designed to help blind students and screen reader users seamlessly save, review, and navigate critical information without losing their current editing position. 
 
-KHW Speak Note is a free and accessible NVDA add-on that helps blind students and NVDA users save, review, and navigate important information without losing their current position. It is especially useful during long mathematical calculations, study sessions, and general note-taking.
+It is engineered to maximize productivity during complex mathematical calculations, long study sessions, and intensive note-taking tasks.
 
+---
 
+## 💡 Why KHW Speak Note?
 
-\## Why KHW Speak Note?
+When solving complex mathematical equations, blind students frequently need to recall previous steps while working on the current one. Continuously navigating backward and forward through a document disrupts concentration and significantly slows down the problem-solving workflow.
 
+As a blind student from Myanmar and an active NVDA user, I experienced this bottleneck firsthand. **KHW Speak Note** was developed to bridge this accessibility gap—allowing users to instantly capture temporary formulas, numbers, or reminders and recall them on the fly via keyboard shortcuts.
 
+---
 
-When solving mathematics problems, blind students often need to remember previous calculation steps while continuing their work. Moving back and forth through a document can interrupt concentration and slow down the problem-solving process.
+## ✨ Features & Capabilities
 
+* **Instant Capture:** Save mathematical working steps, formulas, or general notes instantly.
+* **Unlimited Capacity:** Store as many notes and calculation steps as your workflow requires.
+* **Fast Navigation:** Cycle quickly between your saved items with efficient keystrokes.
+* **Review Dashboard:** Browse all captured notes inside a dedicated, accessible list view.
+* **Flexible Deletion:** Remove specific entries individually or clear the entire clipboard history.
+* **Custom Bindings:** Fully compatible with NVDA's **Input Gestures** for custom keyboard mapping.
+* **Dual Storage Modes:** Switch between temporary session memory and persistent data saving.
+* **Screen Reader Optimized:** Built exclusively around keyboard-driven workflows for maximum compatibility with NVDA.
 
+---
 
-As a blind student from Myanmar and an NVDA user, I personally experienced this challenge. To solve this problem, I created KHW Speak Note.
+## 🚀 What's New in Version 1.1.0
 
+* **Individual Deletion:** Added targeted support for removing single saved items from the history.
+* **Input Gestures Support:** Remap any default shortcut using the standard NVDA Input Gestures dialog.
+* **Dual Saving Modes:**
+  * **Temporary Saving:** Automatically flushes all saved entries upon system reboot or shutdown.
+  * **Data Saving Only:** Safely retains your notes persistently across system reboots and sessions.
+* **UX Optimizations:** Improved overall note management and announcement behavior for a smoother user experience.
 
+---
 
-This add-on allows users to instantly save important calculation steps, formulas, notes, or reminders and access them whenever needed.
+## 🎛️ Default Keyboard Shortcuts
 
+| Shortcut | Function |
+| :--- | :--- |
+| `Ctrl + Shift + M` | Save the current note or calculation step |
+| `Ctrl + Shift + R` | Read/announce saved items sequentially |
+| `Ctrl + Shift + H` | Open the saved items list viewer |
+| `Ctrl + Shift + 2` | Jump to the **previous** saved item |
+| `Ctrl + Shift + 3` | Jump to the **next** saved item |
 
+> ⚠️ **Note:** If any of these combinations conflict with your current setup, you can freely rebind them via **NVDA Menu -> Preferences -> Input gestures**.
 
-\---
+---
 
+## 💾 Storage Modes Explained
 
+### 1. Temporary Saving
+Ideal for quick scratchpad tasks, fast algebra checks, or single study sessions. Data is held in volatile memory and is completely cleared when your computer restarts or shuts down.
 
-\## What's New in Version 1.1.0
+### 2. Data Saving Only
+Perfect for long-term reference materials, multi-day assignments, and universal formulas. Your captured items are saved directly to disk and survive system restarts.
 
+---
 
+## 🎯 Target Audience & Use Cases
 
-\* Added support for deleting individual saved items.
+* **Mathematics & STEM Learners:** Solving multi-line algebra, calculus, geometry, and trigonometry exercises.
+* **Students & Researchers:** Keeping key textbook quotes or definitions close at hand during revision.
+* **Assistive Technology Users:** Anyone seeking an ultra-fast, unobtrusive utility note-taker inside the Windows environment.
+* **Educators:** Assisting visually impaired students with organized, step-by-step technical learning.
 
-\* Added support for custom keyboard shortcuts through NVDA Input Gestures.
+---
 
-\* Added two saving modes:
+## 📥 Installation
 
+1. Download the official `.nvda-addon` package:
+   [Download KHW Speak Note v1.1.0](https://github.com/KoKyawCoder/KHW-Speak-Note/releases/download/KHW/KHW_Speak_Note-1.1.0.nvda-addon)
+2. Locate and open the downloaded file on your computer.
+3. When the NVDA installation prompt appears, select **Yes**.
+4. Restart NVDA to apply changes and activate the add-on.
 
+---
 
-&#x20; \* \*\*Temporary Saving\*\* – automatically removes saved items after restarting or shutting down the computer.
+## 🛠️ Development & Support
 
-&#x20; \* \*\*Data Saving Only\*\* – keeps saved items persistently across sessions.
+* **Source Code:** [GitHub Repository](https://github.com/KoKyawCoder/KHW-Speak-Note)
+* **Latest Releases:** [Releases Page](https://github.com/KoKyawCoder/KHW-Speak-Note/releases)
+* **Issue Tracker:** Found a bug or have a feature request? Please open a ticket on our [Issues Page](https://github.com/KoKyawCoder/KHW-Speak-Note/issues).
 
-\* Improved note management and usability.
+---
 
+## 👨‍💻 About the Developer
 
+**Ko Kyaw Htoo Win** is a blind student, programmer, and cybersecurity researcher from Myanmar. He designed and built **KHW Speak Note** to empower blind students worldwide, ensuring that educational barriers in technical fields like mathematics are reduced through adaptive, smart open-source tools.
 
-\---
+---
 
+## 📄 License
 
+This project is licensed under the **GNU General Public License v2.0 (GPL-2.0)**. For complete terms, please refer to the `LICENSE` file included in this repository or visit the [GNU License Page](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html).
 
-\## Features
+---
 
-
-
-\* Instantly save important calculation steps and notes.
-
-\* Store unlimited notes and mathematical working steps.
-
-\* Review saved items at any time.
-
-\* Navigate quickly between saved items.
-
-\* Browse all saved notes in a convenient list.
-
-\* Delete individual notes or clear all notes.
-
-\* Create custom keyboard shortcuts using NVDA Input Gestures.
-
-\* Choose between temporary and persistent storage modes.
-
-\* Designed specifically for blind users and NVDA screen reader users.
-
-\* Lightweight and keyboard-friendly.
-
-
-
-\---
-
-
-
-\## Default Keyboard Shortcuts
-
-
-
-| Shortcut         | Function                                  |
-
-| ---------------- | ----------------------------------------- |
-
-| Ctrl + Shift + M | Save the current note or calculation step |
-
-| Ctrl + Shift + R | Read saved items                          |
-
-| Ctrl + Shift + H | Open the saved items list                 |
-
-| Ctrl + Shift + 2 | Move to the previous saved item           |
-
-| Ctrl + Shift + 3 | Move to the next saved item               |
-
-
-
-\*\*Note:\*\* These shortcuts can be changed from NVDA's Input Gestures dialog.
-
-
-
-\---
-
-
-
-\## Saving Modes
-
-
-
-\### Temporary Saving
-
-
-
-Saved items are automatically removed when the computer is restarted or shut down. This mode is useful for temporary calculations and short study sessions.
-
-
-
-\### Data Saving Only
-
-
-
-Saved items remain available after restarting the computer. This mode is useful for long-term study notes and frequently used information.
-
-
-
-\---
-
-
-
-\## Use Cases
-
-
-
-KHW Speak Note can be helpful for:
-
-
-
-\* Long mathematical calculations
-
-\* Algebra and equation solving
-
-\* Geometry and trigonometry exercises
-
-\* Study notes and revision materials
-
-\* Remembering formulas and important information
-
-\* Quick reminders during work or study
-
-\* General note-taking for NVDA users
-
-
-
-\---
-
-
-
-\## Who Is This Add-on For?
-
-
-
-\* Blind students
-
-\* NVDA screen reader users
-
-\* Mathematics learners
-
-\* Teachers and accessibility professionals
-
-\* Anyone who needs quick note-taking within NVDA
-
-
-
-\---
-
-
-
-\## Installation
-
-
-
-1\. Download the latest `.nvda-addon` package.
-
-
-
-&#x20;  https://github.com/KoKyawCoder/KHW-Speak-Note/releases/download/KHW/KHW\_Speak\_Note-1.1.0.nvda-addon
-
-
-
-2\. Open the downloaded file.
-
-
-
-3\. NVDA will ask whether you want to install the add-on.
-
-
-
-4\. Select \*\*Yes\*\*.
-
-
-
-5\. Restart NVDA to complete the installation.
-
-
-
-\---
-
-
-
-\## Download
-
-
-
-\### Latest Release: Version 1.1.0
-
-
-
-https://github.com/KoKyawCoder/KHW-Speak-Note/releases
-
-
-
-\---
-
-
-
-\## Source Code
-
-
-
-Repository:
-
-
-
-https://github.com/KoKyawCoder/KHW-Speak-Note
-
-
-
-\---
-
-
-
-\## Reporting Bugs and Suggestions
-
-
-
-If you find a bug or would like to suggest a new feature, please open an issue:
-
-
-
-https://github.com/KoKyawCoder/KHW-Speak-Note/issues
-
-
-
-\---
-
-
-
-\## Accessibility
-
-
-
-KHW Speak Note is built with accessibility as its primary goal. The add-on integrates directly with NVDA and provides a simple keyboard-driven experience that works efficiently with screen readers.
-
-
-
-\---
-
-
-
-\## About the Developer
-
-
-
-\*\*Ko Kyaw Htoo Win\*\* is a blind student from Myanmar and an NVDA user. He developed KHW Speak Note to make mathematics and note-taking more accessible, efficient, and convenient for blind students around the world.
-
-
-
-\---
-
-
-
-\## License
-
-
-
-For more information, see the LICENSE file included with this project or visit:
-https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
-
-
-\---
-
-
-
-\## Keywords
-
-
-
-NVDA Add-on, NVDA Plugin, Screen Reader, Accessibility, Blind Students, Mathematics, Mathematical Calculations, Note Taking, Education, Assistive Technology, Windows Accessibility, Study Tools, Blind Learners, Accessible Mathematics.
-
-
-
+### 🏷️ Keywords
+`NVDA Add-on` • `NVDA Plugin` • `Screen Reader` • `Accessibility` • `Blind Students` • `Accessible Mathematics` • `Note Taking` • `Assistive Technology` • `Windows Accessibility` • `Open Source Myanmar`
