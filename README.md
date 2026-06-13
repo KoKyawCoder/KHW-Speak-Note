@@ -100,7 +100,7 @@ Perfect for long-term reference materials, multi-day assignments, and universal 
 ---
 
 ## 📄 License
-
+Copyright © 2026 **Ko Kyaw Htoo Win.**
 This project is licensed under the **GNU General Public License v2.0 (GPL-2.0)**. For complete terms, please refer to the `LICENSE` file included in this repository or visit the [GNU License Page](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html).
 
 ---
